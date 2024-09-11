@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --PrimaryColor: #0073a8;
+    --SecondaryColor: #10b5cb;
+    --gradientColor: linear-gradient(90deg, rgba(16,181,203,1) 35%, rgba(0,115,168,1) 100%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam:hsl(0, 0%, 93%);
+    --greyText: hsl(190, 190%, 190%);
+    --inputColor: hsl(239, 239%, 239%);
+    --bodyColor: hsl(240, 240%, 246%);
+    --cardBG: #bbb;
+    --cardHover: #aeaeae;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.sectiom{
+    padding: 4rem 0 3rem;
+}
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--blackColor);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+.btn{
+    padding: .6rem 1.5rem;
+    background: linear-gradient(90deg, rgba(16,181,203,1) 35%, rgba(0,115,168,1) 100%);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--whiteColor);
+}
+.btn a{
+    color: var(--gradientColor);
+    font-weight: 500;
+}
+.btn:hover{
+    background: linear-gradient(259deg, rgba(16,181,203,1) 35%, rgba(0,115,168,1) 100%);
+    transform: translateY(-2px);
+    transition: ease-in-out .2s;
+}
+img, video{
+    width: 100%;
+    height: auto;
+}
+input{
+    font-size: 100%;
+}
+body{
+    background: var(--bodyColor);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1240px){
+    .container{
+        width: 80% !important;
+        margin: auto !important;
+    }
+    .section{
+        padding: 6rem 0 4rem;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    body{
+        zoom: 1.7;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
